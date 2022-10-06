@@ -18,3 +18,11 @@
 | Retrieve all News              | GET    | `/api/news/:id` |
 | Retrieve a single News with id | PUT    | `/api/news/:id` |
 | Delete a News with id          | DELETE | `/api/news/:id` |
+
+go mod tidy
+go mod download
+go run main.go
+docker build -t books-service . 
+docker run -d -p 8080:8080 -v $(pwd)/db/:/app/db books-service
+docker ps
+docker logs NAMES
