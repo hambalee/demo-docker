@@ -14,7 +14,7 @@
 | Name                           | Method | Path            |
 |--------------------------------|--------|-----------------|
 | Create a news                  | POST   | `/api/news`     |
-| List all books                 | GET    | `/api/news`     |
+| List all news                 | GET    | `/api/news`     |
 | Retrieve all News              | GET    | `/api/news/:id` |
 | Retrieve a single News with id | PUT    | `/api/news/:id` |
 | Delete a News with id          | DELETE | `/api/news/:id` |

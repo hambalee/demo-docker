@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "newconnection",
+            "database": "${workspaceFolder:demo-docker}/backend/books/db/database.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
