@@ -19,6 +19,7 @@
 | Retrieve a single News with id | PUT    | `/api/news/:id` |
 | Delete a News with id          | DELETE | `/api/news/:id` |
 
+# backend 
 
 `go mod tidy`
 
@@ -29,6 +30,7 @@
 `docker build -t books-service . `
 
 `docker run -d -p 8080:8080 -v $(pwd)/db/:/app/db books-service`
+`docker run -d -p 8080:8080 -v $(pwd)/db/:/server/db books-service`
 
 `docker ps`
 
